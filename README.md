@@ -90,11 +90,11 @@ Education is the cornerstone of every nation, and the moment its advancement pea
 - expert reachouts to onboard more brainpower that continuously expands the network's possibilities with each fresh perspective
 
 ## Financial Center
-- see: Fractional.Foundation
+- see: [Fractional.Foundation](https://fractional.foundation)
 - Funds/Loans services to be defined by Fractional Foundation DAO
 - will prioritize acquiring and increasing positions in seeded projects within the Reserve, in order to retain as much network value from succesful seeds for members as possible
 - will define DeFi instruments worth launching that put reserve capital to work (with gains being paid out to members)
 
 ## Reserve
-- see: Fractional.Foundation
+- see: [Fractional.Foundation](https://fractional.foundation)
 - Reserve Shares act as a store of wealth, the Burn Token acts like oil does for USD, Fiat acts as a transactional currency made to be liquid, while Entropy is deflationary and acts as a digital gold
