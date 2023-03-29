@@ -1,12 +1,14 @@
 # SI2: Social Insurance 2.0
 
-Still loosely formed, and inspired in part by some of the tech involved in my current(ish) also loosely formed project [CMesh](https://github.com/proggR/CMesh), SI2 is an attempt to finally define a dream I've had for years: a refactoring of our social contract geared toward increasing vertical mobility, defined as a collection of insurance policies and wealth funds bound to legislature that's decided on by the organization's members. 
+SI2 is an attempt to finally define a dream I've had for years: a refactoring of our social contract geared toward increasing vertical mobility, defined as a collection of insurance policies and wealth funds bound to legislature that's decided on by the organization's members. 
 
 Its a combination of a bunch of past ideas (Githubberment, [Fractional Foundation](https://fractional.foundation), and a civic engagement concept I'd started noodling on years ago inspired by a project called MaMarie) into one mega absurd idea: that we already, today, have the necessary tools and ideas to construct for ourselves a bottom-up, silent, peaceful revolution leading toward a new 21st century social contract of "socialcapitalism" via a parellel structure of social support and order that ends up winning out against our existing frail and strained social systems over time simply by being a more efficient and equitable model of governance, education, employment, investment and resource/capital allocation. 
 
-Or in other words: a model that leverages the best of capitalism (its free market dynamics) to undermine the value prop of our existing inhumane capitalist system by increasingly providing comparable, and beyond a certain scale superior, social services via well defined insurance policies and wealth funds so that in some future moment of crash, rather than history repeating itself and pitchforks being drawn as social decohesion kicks into overdrive, people have something reliable to fall back on as an alternative social contract instead that adds more benefits to members for lower costs as it scales (much in the same way insurance policy costs are driven down by pooling through larger group funds).
+Or in other words: a model that leverages the best of capitalism (its free market dynamics) to undermine the value prop of our existing inhumane capitalist system by increasingly providing comparable, and beyond a certain scale superior, social services. It will accomplish this via well defined insurance policies and wealth funds so that in some future moment of crash, rather than history repeating itself and pitchforks being drawn as social decohesion kicks into overdrive, people have something reliable to fall back on as an alternative social contract instead. As adoption scales, the model is able to add more benefits to members for lower costs, much in the same way insurance policy costs are driven down by pooling through larger group funds.
 
-For the moment no code will be thrown against this, but some elements of the model I've implemented before and would actually like to at some point attempt a prototype a working toy of whatever model is arrived at. Think I'm largely finally aiming to write it out because I'm about to start Ray Dalio's "Principles for Dealing with the Changing World Order: Why Nations Succeed and Fail" and thought maybe before I do I'd try to capture thoughts I've had for the model projected against his defined 8 Strengths to compare thoughts after reading. 
+This model started largely as a thought experiment, but is currently being worked on as [Commonwealth](https://wethecommonwealth.org). The initial focus will be on launching the Commonwealth Capital Model (identified as Financial Center & Reserve below), followed by development of the DID and DID-integrated Governance service. From the Capital Model + DID, the remaining SI2 services can be developed and launched, while efforts to onboard vendors/marketplaces to the Fiat asset will help grow the network's liquidity, enabling further expansion of SI2 services.
+
+Sections below are borrowed from the 8 Strengths identified in Ray Dalio's "Principles for Dealing with the Changing World Order: Why Nations Succeed and Fail". 
 
 
 ## Identity
@@ -16,12 +18,26 @@ For the moment no code will be thrown against this, but some elements of the mod
 - DIDs in violation of global legislature rulesets will be brought to a distributed justice service (think: Kleros) when smart contract arbitration processes aren't able to resolve the injustice automatically. this same mechanism can be utilized within organizations to handle contract violations and their arbitration internally as well, and depending on ruleset implementation may also be used to monitor/control/quarantine infrastructure
 
 
+## Financial Center
+- see: [Commonwealth Capital Model Litepaper](https://wethecommonwealth.org/Litepaper.html)
+- Funds/Loans services to be considered/defined by CommonwealthDAO
+- will prioritize stewarding and utilizing Reserve capital for the longterm health of the Commonwealth Economy, aiming to utilize as much capital for social-good investments & insurance as sustainably possible
+- will prioritize acquiring reliable stores of wealth, including hedges against the crypto market, to maintain longterm Reserve value & health
+- will prioritize acquiring and increasing positions in projects seeded within the Commonwealth network in order to retain as much longterm network value from succesful seeds for members as possible
+- will define DeFi instruments worth launching that put reserve capital to work (with gains being paid out to members)
+
+## Reserve
+- see: [Commonwealth Capital Model Litepaper](https://wethecommonwealth.org/Litepaper.html)
+- CommonOil acts as the energy supply of the system, much like it does in our real economy
+- CommonFiat acts as a transactional currency made to be liquid and used for commerce once stability targets achieved
+- CommonGold is a deflationary, scarce asset aiming to function as the model's internal store of wealth 
+- The Reserve pools a portion of each of these assets, minting the CommonShare asset (utility tbd: likely to be utilized as part of investment/insurance services)
+
 ## Insurance 
 - social services, or any government program really, can be thought of as massive group insurance policies/wealth funds with an objective oriented mandate
 - insurance platform will first be developed to launch social insurance and associated investment funds from the global legislature, but will aim to remain generalized to be used by organizations, then offered more broadly
-- insurance ultimately will aim to target health and employment insurance, selling toward small/medium sized businesses and gig economy workers, but may pursue smaller capex or crypto marketplaces to start depending on implementation (leveraging something like UNN potentially if rolling insurance contracts seems out of reach)
+- insurance ultimately will aim to target health and employment insurance, selling toward small/medium sized businesses and gig economy workers, but may pursue smaller capex or crypto marketplaces to start depending on implementation
 - surplus funds from sound investments will be split between a surplus reserve pool, other pools generating less surplus from their funds, and innovation oriented investments that grow the overall value of the network to drive down costs as successful seeds (see: Innovation below) go onto generate additional surpluses
-
 
 ## Education
 
@@ -81,20 +97,10 @@ Education is the cornerstone of every nation, and the moment its advancement pea
 - offer up insurance services to non-members, at a premium over member services, paying the premium out to members
 - provide platform to leverage DAO tooling for non-member DAOs (at a cost, paying profits to members)
 - provide restricted access to wealth funds to non-members to scale network objectives and increase liquidity (with built in kickbacks to members)
-- leverage skills/recruiting featuresets to propose temporary talent trades with and between member organizations, with non-member trades possible for a premium (think: options market on talent pools)
+- leverage skills/recruiting featuresets to propose temporary talent trades with and between member organizations, with non-member trades possible for a premium (think: options market on talent pools) (<- not sure I love this idea in retrospect... revisit when nearing recruiting service)
 
-## Military
+## "Military"
 - recruitment services aiming to onboard new members/organizations to the network (ie: the meme army)
 - weekly campaigns pushing into targeted market segments
 - referral/commission program for successful member driven sales calls/onboarding of businesses to training/recruiting/insurance/wealth management services
 - expert reachouts to onboard more brainpower that continuously expands the network's possibilities with each fresh perspective
-
-## Financial Center
-- see: [Fractional.Foundation](https://fractional.foundation)
-- Funds/Loans services to be defined by Fractional Foundation DAO
-- will prioritize acquiring and increasing positions in seeded projects within the Reserve, in order to retain as much network value from succesful seeds for members as possible
-- will define DeFi instruments worth launching that put reserve capital to work (with gains being paid out to members)
-
-## Reserve
-- see: [Fractional.Foundation](https://fractional.foundation)
-- Reserve Shares act as a store of wealth, the Burn Token acts like oil does for USD, Fiat acts as a transactional currency made to be liquid, while Entropy is deflationary and acts as a digital gold
